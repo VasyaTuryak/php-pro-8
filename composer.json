@@ -1,0 +1,24 @@
+{
+  "name": "php-pro/app",
+  "type": "project",
+  "require": {
+    "psr/container": "*",
+    "illuminate/database": "v9.*",
+    "ext-pdo": "*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "classmap": [
+      "src/classes",
+      "src/Exception",
+      "src/Interface",
+      "src/Model"
+    ]
+  },
+  "authors": [
+    {
+      "name": "VasyaT"
+    }
+  ],
+  "minimum-stability": "stable"
+}
